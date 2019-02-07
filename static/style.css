@@ -1,0 +1,102 @@
+body {
+    background-color: #1976d2;
+}
+.grid_container1 {
+
+    overflow: hidden;
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+.header_text {
+    color:  #fff;
+    margin: auto;
+    display: grid;
+    width: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    font-size: 30px;
+
+}
+#first_grid, #second_grid {
+    float: left;
+    width: 320px;
+    border-radius: 4px;
+    padding: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .9);
+    background-color: white;
+
+}
+
+#first_grid{
+    margin-right: 20px;
+
+}
+
+#second_grid {
+    margin-left: 20px;
+}
+
+input, label, textarea, button {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+textarea {
+    resize: none;
+    background-color: #eee;
+    border: #01579b 1px solid;
+    font-size: 20px;
+
+}
+
+.card_text {
+    color: #222;
+    font-size: 26px;
+}
+input {
+    background:  #fff;
+    border: #01579b 1px solid;
+    color:  #222;
+    font-size: 20px;
+}
+
+button {
+    background:  #1976d2;
+    border: #01579b 1px solid;
+    color:  #fff;
+    font-size: 20px;
+}
+
+.message_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.normal {
+    background-color: #1976d2;
+}
+
+.correct {
+    background-color: #43a047;
+}
+.incorrect {
+    background-color: #e53935;
+}
+
+#correct {
+    color: #43a047;
+}
+
+#incorrect {
+    color:#e53935;
+}
